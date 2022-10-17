@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#카카오 미러가 터져서 생긴..
 #forked from https://gist.github.com/lesstif/8185f143ba7b8881e767900b1c8e98ad
 
 SL=/etc/apt/sources.list
