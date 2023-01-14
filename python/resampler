@@ -20,8 +20,8 @@ def down_sample(input_wav:str, output_wav:str, resample_sr:int):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='argument paser for resample datset.')
-    parser.add_argument('--input_dir', type=str, default='/home/nas3/DB/SPEAR/Extra', help='input wav file directory')
-    parser.add_argument('--output_dir', type=str, default='/home/nas3/DB/SPEAR_16k/Extra', help='output wav file directory')
+    parser.add_argument('--input_dir', type=str, default='default_dir', help='input wav file directory')
+    parser.add_argument('--output_dir', type=str, default='replace_dir', help='output wav file directory')
     parser.add_argument('--resample_sr', type=int, default=16000, help='resample sample rate')
     args = parser.parse_args()
     
